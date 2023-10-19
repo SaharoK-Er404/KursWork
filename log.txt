@@ -1,0 +1,40 @@
+окт. 19, 2023 2:02:09 PM Server main
+INFO: SEVER STARTED
+окт. 19, 2023 2:02:19 PM Server main
+INFO: CLIENT CONNECTED: 127.0.0.1
+окт. 19, 2023 2:02:19 PM Handler run
+INFO: READER STARTED
+окт. 19, 2023 2:02:19 PM Handler run
+INFO: CLIENT REQUEST ACCEPTED: Auth medical
+окт. 19, 2023 2:02:19 PM Handler run
+INFO: SERVER RESPONSE TO CLIENT: ChkSuc;medical;
+окт. 19, 2023 2:02:19 PM Handler run
+INFO: WRITER CLOSED
+окт. 19, 2023 2:02:19 PM Handler run
+INFO: CLIENT SOCKET CLOSED. READER CLOSED
+окт. 19, 2023 2:02:21 PM Server main
+INFO: CLIENT CONNECTED: 127.0.0.1
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: READER STARTED
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: CLIENT REQUEST ACCEPTED: FtchOrd medical
+окт. 19, 2023 2:02:21 PM DBControl fetchOrders
+INFO: ORDERS RETRIEVED
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: SERVER RESPONSE TO CLIENT: OrdInf;medical;101;gloves;MediCorp;500;2500.0;delivered;102;scalpel;MediCorp;200;5000.0;in progress;103;hemostat;MediCorp;300;2000.0;in progress;
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: WRITER CLOSED
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: CLIENT SOCKET CLOSED. READER CLOSED
+окт. 19, 2023 2:02:21 PM Server main
+INFO: CLIENT CONNECTED: 127.0.0.1
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: READER STARTED
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: CLIENT REQUEST ACCEPTED: FtchSup medical
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: SERVER RESPONSE TO CLIENT: SupInf;medical;1;gloves;500;
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: WRITER CLOSED
+окт. 19, 2023 2:02:21 PM Handler run
+INFO: CLIENT SOCKET CLOSED. READER CLOSED
